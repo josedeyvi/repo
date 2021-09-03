@@ -1,0 +1,34 @@
+{
+  "name": "pe-mdw-tracking-janis-not-delivered",
+  "version": "1.0.0",
+  "description": "Actualizar ordenes con estado NO_ENTREGADO  a NO_ENTREGADO_ENV_JANIS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon prueba.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "codecommit://padm-test@pe-mdw-tracking-orders-send-ll"
+  },
+  "keywords": [
+    "janis",
+    "listo",
+    "para",
+    "enviar",
+    "orders"
+  ],
+  "author": "Jose Atachagua",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.917.0",
+    "axios": "^0.21.1",
+    "generate-key": "0.0.6",
+    "jsonfile": "^6.1.0",
+    "pg": "^8.6.0",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
